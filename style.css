@@ -1,0 +1,70 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+#timer{
+  color: #0000ff;
+  font-size: 150%;
+}
+.saveIcon {
+  background-color:#87cefa;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  height: 50%;
+  width: 100%; 
+  /* margin-top: -49%;
+  padding-top: 50%; */
+  float:left;
+}
+input {
+  background: transparent;
+  border: none;
+  margin-top: -3%;
+  padding-left: 3px;
+}
+.col-md-1, .col-md-2, .col-md-9 {
+  padding-left: 1%;
+  padding-top: 3%;
+}
+.plannerRow {
+  height: 100px;
+  margin-top: 10px;
+}
+/* style container with daily plan */
+.dailyPlan {
+  color: black;  
+  font-size: 14pt;
+  height:100%;
+  width: 100%;
+}
+/* style container with time in it */
+.timeBox {
+  background-color: #f1f3f7;  
+  border-color: #6495ed;
+  border-style: solid;
+  color: black;
+  height:70%;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  display: inline-block;
+  font-size: 1.2em;
+  padding-top: 8%;
+  margin-top: -5%;
+}
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  body, .jumbotron, #timer, input, .col-md-1, .col-md-2, .col-md-9, .plannerRow, .dailyPlan, .timeBox, .saveIcon{
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
